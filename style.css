@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1356f0;
+  }
+  
+  .progress-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+  }
+  
+  .routine-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(19, 86, 240, 0.1);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px dashed #1356f0;
+  }
+  
+  .routine-item.completed {
+    background: rgba(19, 240, 86, 0.2);
+    border: 1px solid #13f056;
+  }
+  
+  button {
+    background: #1356f0;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  .routine-item.current {
+    border: 2px solid #1356F0; /* Highlight with primary color */
+    background-color: rgba(19, 86, 240, 0.1); /* Light highlight */
+    font-size: 1.2rem; /* Larger font for emphasis */
+  }
+    
