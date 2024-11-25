@@ -1,2 +1,2 @@
 # Daily Tracker
-[Live Link]([url](https://humayun63.github.io/daily-routine/))
+[Live Link](https://humayun63.github.io/daily-routine/)
